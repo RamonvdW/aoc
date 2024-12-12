@@ -4,23 +4,24 @@ Advent of Code private leaderboard detailed reporting
 See https://adventofcode.com/
 
 How to run:
-1) Copy your the session cookie contents from your browser.
-   Put it in the SESSION variable in get.sh script.
+1) Copy contents of your session cookie from your browser.
+   Put it in the SESSION variable in the `get.sh` script.
    This will work for 1 month and allows download if the leaderboard json.
    
 2) Find your personal member number on the AoC site under Settings.
-   Put the number in the MY_MEMBER_NR variable in show.sh script.
+   Put the number in the `MY_MEMBER_NR` variable in the `show.sh` script.
    
-3) run ./get.sh to download the private leaderboard data.
+3) run `./get.sh` to download the private leaderboard data.
 
-4) run ./show.sh to get the detailed report.
+4) run the show.sh script to get the detailed report.
 
-   run ./show.sh without arguments to get your detailed report.
+   run `./show.sh` (no arguments) to get your detailed report.
+   see sample below.
 
-   run ./show.sh PartOfName to show the detailed report for a specific user.
-   run ./show.sh "Part of name" to show the detailed report for a specific user.
+   run `./show.sh PartOfName` to show the detailed report for a specific user.
+   run `./show.sh "Part of name"` to show the detailed report for a specific user.
 
-   run ./show.sh 5 to show the detailed report for day 5.
+   run `./show.sh 5` to show the detailed report for day 5.
 
 Sample output:
 
