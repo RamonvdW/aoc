@@ -25,7 +25,7 @@ How to run:
 
 Sample output:
 
-    Results for Ramon van der Winkel
+    Results for Ramon
     day part rank score duration
     --- ---- ---- ----- --------
       1    1   47   154 11:31:05
